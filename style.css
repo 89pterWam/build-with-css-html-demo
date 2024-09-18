@@ -98,3 +98,7 @@ a:hover {
   font-weight: bold;
   text-decoration: underline dotted #444;
 }
+a:active {
+  background-color: #0000;
+  font-style: italic;
+}
