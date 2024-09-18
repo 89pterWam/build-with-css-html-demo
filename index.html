@@ -26,7 +26,9 @@
           alt="post-image"
         />
 
-        <p>Posted by <strong>Paul Lulami</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Paul Lulami</strong> on Monday, June 21st 2027
+        </p>
         <img
           src="Images-html/html-code-on-screen.jpg"
           width="700"
@@ -156,17 +158,27 @@
     </article>
 
     <h4>Related Posts</h4>
-    <ul>
+    <ul class="related">
       <li>
-        <img src="Images-html/related-1.jpg" width="100" height="100" />
+        <img
+          src="Images-html/related-1.jpg"
+          width="100"
+          height="100"
+          alt="Person programming"
+        />
         <a href="#">How To Learn Web Developpment</a>
-        <p>By Jonas Schemedtmann</p>
+        <p class="related-author">By Jonas Schemedtmann</p>
       </li>
 
       <li>
-        <img src="Images-html/related-2.jpg" width="100" height="100" />
+        <img
+          src="Images-html/related-2.jpg"
+          width="100"
+          height="100"
+          alt="Thunder css"
+        />
         <a href="#">The Unknown Power of CSS</a>
-        <p>By Jim Dillon</p>
+        <p class="related-author">By Jim Dillon</p>
       </li>
 
       <li>
@@ -174,13 +186,14 @@
           src="Images-html/javascript-code-on-screen.jpg"
           width="100"
           height="100"
+          alt="Javascript SEO"
         />
         <a href="#">Why Javascript is Awesome</a>
-        <p>By Matilda</p>
+        <p class="related-author">By Matilda</p>
       </li>
     </ul>
     <footer>
-      <p>Copyright &copy; 2027 The Code Magazine.</p>
+      <p id="copyright">Copyright &copy; 2027 The Code Magazine.</p>
     </footer>
   </body>
 </html>
