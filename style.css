@@ -92,7 +92,7 @@ a:visited {
 a:hover {
   color: #865dcd;
   font-weight: bold;
-  text-decoration: underline dotted #444;
+  text-decoration: underline;
 }
 a:active {
   background-color: #0000;
