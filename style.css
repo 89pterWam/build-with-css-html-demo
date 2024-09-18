@@ -1,13 +1,3 @@
-/* Commonize properties: list of selector */
-h1,
-h2,
-h3,
-p,
-li {
-  font-family: sans-serif;
-  color: #444;
-}
-
 /* Color Headings */
 h1,
 h2,
