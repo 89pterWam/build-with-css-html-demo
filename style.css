@@ -4,3 +4,8 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
 }
+
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
