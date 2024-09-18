@@ -1,5 +1,10 @@
-body {
+/* Universal Selector */
+
+* {
   color: #444;
+}
+
+body {
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
 }
