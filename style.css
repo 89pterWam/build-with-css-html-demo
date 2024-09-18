@@ -83,3 +83,10 @@ li:first-child {
 li:last-child {
   font-style: italic;
 }
+
+/* Styling links */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
