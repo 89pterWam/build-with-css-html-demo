@@ -93,3 +93,8 @@ a:link {
 a:visited {
   color: #1098ad;
 }
+a:hover {
+  color: #865dcd;
+  font-weight: bold;
+  text-decoration: underline dotted #444;
+}
