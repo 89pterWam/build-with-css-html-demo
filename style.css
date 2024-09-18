@@ -98,3 +98,6 @@ a:active {
   background-color: #0000;
   font-style: italic;
 }
+nav {
+  font-size: 18px;
+}
