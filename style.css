@@ -80,7 +80,8 @@ li:first-child {
   font-weight: bold;
 }
 li:last-child {
-  font-style: italic;
+  /* font-style: italic; */
+  margin-bottom: 0;
 }
 
 /* Links Box  */
