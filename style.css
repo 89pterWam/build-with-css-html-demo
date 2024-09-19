@@ -38,10 +38,6 @@ p {
   line-height: 1.5;
 }
 
-li {
-  font-size: 21px;
-}
-
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
@@ -75,6 +71,11 @@ aside {
   background-color: #f7f7f7;
   padding: 20px 40px;
 }
+/* Box of List Elements */
+li {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
 li:first-child {
   font-weight: bold;
 }
@@ -82,7 +83,7 @@ li:last-child {
   font-style: italic;
 }
 
-/* Styling links */
+/* Links Box  */
 
 a:link {
   color: #1098ad;
