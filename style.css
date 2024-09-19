@@ -70,8 +70,10 @@ aside {
 .related {
   list-style: none;
 }
+/* Box header title 1 */
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
 }
 li:first-child {
   font-weight: bold;
