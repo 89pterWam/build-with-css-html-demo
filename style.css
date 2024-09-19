@@ -54,6 +54,11 @@ aside {
   padding: 50px 0;
 }
 
+/* Article Selector */
+article {
+  margin-bottom: 60px;
+}
+
 /* Links Box  */
 
 a:link {
