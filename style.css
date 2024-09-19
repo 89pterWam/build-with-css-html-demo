@@ -38,10 +38,9 @@ h4 {
   text-transform: uppercase;
   text-align: center;
 }
-
+/* Paragraph Box */
 p {
   font-size: 22px;
-
   line-height: 1.5;
 }
 /* Aside Article Element */
@@ -79,6 +78,11 @@ aside {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+}
+
+/* Box Header 2 */
+.post-header {
+  margin-bottom: 40px;
 }
 /* Box of List Elements */
 li {
