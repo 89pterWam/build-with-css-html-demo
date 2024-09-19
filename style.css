@@ -83,7 +83,12 @@ li:last-child {
   /* font-style: italic; */
   margin-bottom: 0;
 }
-
+/* Ordered and Unordered elements */
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 /* footer p {
   font-size: 16px;
 } */
