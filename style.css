@@ -43,11 +43,12 @@ p {
 
   line-height: 1.5;
 }
-
+/* Aside Article Element */
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
 }
 
 /* footer p {
