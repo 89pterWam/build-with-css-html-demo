@@ -1,3 +1,9 @@
+/* Global Reset with Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
