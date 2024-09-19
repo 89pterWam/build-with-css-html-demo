@@ -140,3 +140,7 @@ ol {
 
 /* CENTERING PAGE: CREATE NONE-SEMENTIC ELEMENT
 AND CONTAINER div */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
