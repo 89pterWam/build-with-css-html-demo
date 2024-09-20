@@ -106,11 +106,16 @@ nav a:link {
   margin-top: 10px;
   display: inline-block;
 }
-
 /* style the last child of navigation */
 nav a:link:last-child {
   margin-right: 0;
 }
+
+/* styling the like button */
+/* button {
+  font-size: 22px;
+
+} */
 /* footer p {
   font-size: 16px;
 } */
