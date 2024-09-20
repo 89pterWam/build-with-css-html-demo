@@ -17,21 +17,38 @@ h2,
 h3 {
   color: #1098ad;
 }
+
 /* Box heading h1 */
 h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
+
 /* styling Pseudo-elements*/
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
 }
+
 /* Box heading h2 */
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
+  position: relative;
+}
+
+/* THE PSEUDO-AFTER AND BEFORE ELEMENT */
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #000;
+  font-size: 18px;
+  padding: 5px 10px;
+  position: absolute;
+  /* display: inline-block; */
+  right: -25px;
+  top: -10px;
 }
 /* Box heading h3 */
 h3 {
@@ -39,6 +56,7 @@ h3 {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 /* Box heading h4 */
 h4 {
   font-size: 20px;
@@ -46,12 +64,14 @@ h4 {
   text-transform: uppercase;
   text-align: center;
 }
+
 /* Paragraph Box */
 p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
 }
+
 /* Aside Article Element */
 aside {
   background-color: #f7f7f7;
@@ -72,14 +92,17 @@ a:link {
   color: #1098ad;
   text-decoration: none;
 }
+
 a:visited {
   color: #1098ad;
 }
+
 a:hover {
-  color: #865dcd;
+  color: #5d09edad;
   font-weight: bold;
-  text-decoration: underline dotted #444;
+  text-decoration: underline #5d09edad;
 }
+
 a:active {
   background-color: #0000;
   font-style: italic;
@@ -90,19 +113,23 @@ li {
   font-size: 21px;
   margin-bottom: 10px;
 }
-li:first-child {
+
+/* li:first-child {
   font-weight: bold;
-}
+} */
+
 li:last-child {
   /* font-style: italic; */
   margin-bottom: 0;
 }
+
 /* Ordered and Unordered elements */
 ul,
 ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
+
 /* Style the navigation semantic element */
 nav a:link {
   /* margin: 20px;
@@ -112,6 +139,7 @@ nav a:link {
   margin-top: 10px;
   display: inline-block;
 }
+
 /* style the last child of navigation */
 nav a:link:last-child {
   margin-right: 0;
