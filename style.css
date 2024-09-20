@@ -8,6 +8,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 /* Color Headings */
@@ -112,10 +113,13 @@ nav a:link:last-child {
 }
 
 /* styling the like button */
-/* button {
+button {
   font-size: 22px;
-
-} */
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
 /* footer p {
   font-size: 16px;
 } */
