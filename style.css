@@ -97,6 +97,20 @@ ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
+/* Style the navigation semantic element */
+nav a:link {
+  /* margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* style the last child of navigation */
+nav a:link:last-child {
+  margin-right: 0;
+}
 /* footer p {
   font-size: 16px;
 } */
