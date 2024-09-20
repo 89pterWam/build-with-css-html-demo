@@ -23,6 +23,11 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
 }
+/* styling Pseudo-elements*/
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
 /* Box heading h2 */
 h2 {
   font-size: 40px;
@@ -120,6 +125,7 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
 /* footer p {
   font-size: 16px;
 } */
