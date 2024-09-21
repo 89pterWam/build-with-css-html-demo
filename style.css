@@ -184,8 +184,12 @@ button {
 /* CENTERING PAGE: CREATE NONE-SEMENTIC ELEMENT
 AND CONTAINER div */
 .container {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
 }
 
 /* FLOATS DESIGN */
+.author {
+}
+.author-img {
+}
