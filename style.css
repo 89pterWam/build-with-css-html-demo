@@ -114,12 +114,7 @@ li {
   margin-bottom: 10px;
 }
 
-/* li:first-child {
-  font-weight: bold;
-} */
-
 li:last-child {
-  /* font-style: italic; */
   margin-bottom: 0;
 }
 
@@ -132,9 +127,6 @@ ol {
 
 /* Style the navigation semantic element */
 nav a:link {
-  /* margin: 20px;
-  padding: 20px;
-  display: block; */
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
@@ -154,16 +146,10 @@ button {
   right: 50px;
 }
 
-/* footer p {
-  font-size: 16px;
-} */
 #copyright {
   font-size: 16px;
 }
 
-/* article header p {
-  font-style: italic;
-} */
 #author {
   font-style: italic;
 }
@@ -198,6 +184,6 @@ button {
 /* CENTERING PAGE: CREATE NONE-SEMENTIC ELEMENT
 AND CONTAINER div */
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
 }
