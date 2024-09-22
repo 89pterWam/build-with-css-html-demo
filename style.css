@@ -190,6 +190,11 @@ AND CONTAINER div */
 
 /* FLOATS DESIGN */
 .author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
 }
 .author-img {
+  float: left;
+  margin-bottom: 10px;
 }
