@@ -166,7 +166,7 @@ button {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   height: 80px;
 }
 
@@ -184,7 +184,7 @@ button {
 /* CENTERING PAGE: CREATE NONE-SEMENTIC ELEMENT
 AND CONTAINER div */
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -200,6 +200,22 @@ AND CONTAINER div */
 }
 
 h1 {
+  float: left;
 }
 nav {
+  float: right;
+}
+/* .clearfix {
+  clear: both;
+} */
+article {
+  width: 800px;
+  float: left;
+}
+aside {
+  width: 350px;
+  float: right;
+}
+footer {
+  clear: both;
 }
