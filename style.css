@@ -1,7 +1,11 @@
 /* Global Reset with Universal Selector */
+
+/* FLOATS DESIGN */
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,6 +27,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  float: left;
 }
 
 /* styling Pseudo-elements*/
@@ -60,7 +65,7 @@ h3 {
 /* Box heading h4 */
 h4 {
   font-size: 20px;
-
+  margin-bottom: 30px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -73,17 +78,27 @@ p {
 }
 
 /* Aside Article Element */
+
+/* FLOAT DESIGN */
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+
+  width: 350px;
+  float: right;
 }
 
 /* Article Selector */
 article {
   margin-bottom: 60px;
+  width: 800px;
+  float: left;
+}
+
+footer {
+  clear: both;
 }
 
 /* Links Box  */
@@ -137,6 +152,11 @@ nav a:link:last-child {
   margin-right: 0;
 }
 
+/* FLOAT DESIGN */
+nav {
+  float: right;
+}
+
 /* styling the like button */
 button {
   font-size: 22px;
@@ -161,13 +181,14 @@ button {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 /* Box header title 1 */
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 20px;
-  height: 80px;
+  height: 50px;
 }
 
 /* Box Header 2 */
@@ -187,8 +208,7 @@ AND CONTAINER div */
   width: 1200px;
   margin: 0 auto;
 }
-
-/* FLOATS DESIGN */
+/* FLOAT DESIGN */
 .author {
   float: left;
   margin-left: 20px;
@@ -197,25 +217,4 @@ AND CONTAINER div */
 .author-img {
   float: left;
   margin-bottom: 10px;
-}
-
-h1 {
-  float: left;
-}
-nav {
-  float: right;
-}
-/* .clearfix {
-  clear: both;
-} */
-article {
-  width: 800px;
-  float: left;
-}
-aside {
-  width: 350px;
-  float: right;
-}
-footer {
-  clear: both;
 }
