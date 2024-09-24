@@ -60,7 +60,7 @@ h3 {
 /* Box heading h4 */
 h4 {
   font-size: 20px;
-
+  margin-bottom: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -78,7 +78,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
-  width: 500px;
+  /* width: 500px; */
 }
 
 /* Article Selector */
@@ -193,4 +193,53 @@ AND CONTAINER div */
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  margin-bottom: 60px;
+  align-items: flex-start;
+  gap: 75px;
+}
+
+aside {
+  flex: 0 0 300px;
+}
+
+article {
+  margin-bottom: 0;
 }
