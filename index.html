@@ -17,185 +17,201 @@
           <a href="#">CSS Grid</a>
         </nav>
       </header>
-      <article>
-        <header class="post-header">
-          <h2>The Basic Language of the Web: HTML</h2>
-          <img
-            src="Images-html/blogger.jpg"
-            width="70"
-            height="70"
-            alt="post-image"
-          />
 
-          <p id="author">
-            Posted by <strong>Paul Lulami</strong> on Monday, June 21st 2027
+      <div class="row">
+        <article>
+          <header class="post-header">
+            <h2>The Basic Language of the Web: HTML</h2>
+
+            <div class="author-box">
+              <img
+                src="Images-html/blogger.jpg"
+                width="70"
+                height="70"
+                alt="post-image"
+              />
+
+              <p id="author" class="author">
+                Posted by <strong>Paul Lulami</strong> on Monday, June 21st 2027
+              </p>
+            </div>
+
+            <img
+              src="Images-html/html-code-on-screen.jpg"
+              width="700"
+              height="300"
+              alt="HTML code"
+              class="post-image"
+            />
+          </header>
+          <p>
+            All modern websites and web applications are built using three
+            fundamental technologies: <strong>HTML</strong>,
+            <strong>CSS</strong> and <strong>JavaScript</strong>. These are the
+            languages of the web.
           </p>
-          <img
-            src="Images-html/html-code-on-screen.jpg"
-            width="700"
-            height="300"
-            alt="HTML code"
-            class="post-image"
-          />
-        </header>
-        <p>
-          All modern websites and web applications are built using three
-          fundamental technologies: <strong>HTML</strong>,
-          <strong>CSS</strong> and <strong>JavaScript</strong>. These are the
-          languages of the web.
-        </p>
 
-        <p>
-          In this post, let's focus on HTML. We will learn what HTML is all
-          about, and why you too should learn it.
-        </p>
+          <p>
+            In this post, let's focus on HTML. We will learn what HTML is all
+            about, and why you too should learn it.
+          </p>
 
-        <h3>Introduction to HTML</h3>
+          <h3>Introduction to HTML</h3>
 
-        <p>At its heart, HTML is a language made up of elements such like:</p>
-        <ul>
-          <li>Paragraph</li>
-          <li>Bulleted list</li>
-          <li>Table</li>
-          <li>Header</li>
-          <li>Three columns of content</li>
-          <li>A navigation menu</li>
-        </ul>
+          <p>At its heart, HTML is a language made up of elements such like:</p>
+          <ul>
+            <li>Paragraph</li>
+            <li>Bulleted list</li>
+            <li>Table</li>
+            <li>Header</li>
+            <li>Three columns of content</li>
+            <li>A navigation menu</li>
+          </ul>
 
-        <p>
-          Which can be applied to pieces of text to give them different meaning
-          in a document, structure a document into logical sections, and embed
-          content such as <em>images</em> and
-          <em>videos</em>
-          into a page.
-        </p>
+          <p>
+            Which can be applied to pieces of text to give them different
+            meaning in a document, structure a document into logical sections,
+            and embed content such as <em>images</em> and
+            <em>videos</em>
+            into a page.
+          </p>
 
-        <p>
-          This module will introduce the first two of these and introduce
-          fundamental concepts and syntax you need to know to understand HTML.
-        </p>
+          <p>
+            This module will introduce the first two of these and introduce
+            fundamental concepts and syntax you need to know to understand HTML.
+          </p>
 
-        <h3>What is HTML?</h3>
+          <h3>What is HTML?</h3>
 
-        <p>
-          HTML <strong>H</strong>yper<strong>T</strong>ext
-          <strong>M</strong>arkup <strong>L</strong>anguage is the code that is
-          used to structure a web page and its content.
-        </p>
+          <p>
+            HTML <strong>H</strong>yper<strong>T</strong>ext
+            <strong>M</strong>arkup <strong>L</strong>anguage is the code that
+            is used to structure a web page and its content.
+          </p>
 
-        <p>
-          For example, content could be structured within a set of paragraphs, a
-          list of bulleted points, or using images and data tables.
-        </p>
+          <p>
+            For example, content could be structured within a set of paragraphs,
+            a list of bulleted points, or using images and data tables.
+          </p>
 
-        <p>
-          As the title suggests,this article will give you a basic understanding
-          of HTML and its functions.
-        </p>
+          <p>
+            As the title suggests,this article will give you a basic
+            understanding of HTML and its functions.
+          </p>
 
-        <p>
-          HTML is a markup language that defines the structure of your content.
-        </p>
+          <p>
+            HTML is a markup language that defines the structure of your
+            content.
+          </p>
 
-        <p>
-          HTML consists of a series of elements, which you use to enclose, or
-          wrap, different parts of the content to make it appear a certain way,
-          or act a certain way.
-        </p>
-        <p>
-          The enclosing tags can make a word or image hyperlink to somewhere
-          else, can italicize words, can make the font bigger or smaller, and so
-          on.
-        </p>
-        <p>In HTML, each element is made up of 3 parts:</p>
+          <p>
+            HTML consists of a series of elements, which you use to enclose, or
+            wrap, different parts of the content to make it appear a certain
+            way, or act a certain way.
+          </p>
+          <p>
+            The enclosing tags can make a word or image hyperlink to somewhere
+            else, can italicize words, can make the font bigger or smaller, and
+            so on.
+          </p>
+          <p>In HTML, each element is made up of 3 parts:</p>
 
-        <ol>
-          <li>
-            The opening tag &mdash; Consists of the name of the element wrapped
-            in opening and closing angle brackets. It states where the element
-            begins.
-          </li>
-          <li>
-            The closing tag &mdash; This is the same as the opening tag, except
-            that it includes a forward slash before the element name. This
-            states where the element ends.
-          </li>
-          <li>
-            The content &mdash; This is the content of the element, usually a
-            text.
-          </li>
-          <li>
-            The element &mdash; The opening tag, the closing tag, and the
-            content together comprise the element.
-          </li>
-        </ol>
+          <ol>
+            <li>
+              The opening tag &mdash; Consists of the name of the element
+              wrapped in opening and closing angle brackets. It states where the
+              element begins.
+            </li>
+            <li>
+              The closing tag &mdash; This is the same as the opening tag,
+              except that it includes a forward slash before the element name.
+              This states where the element ends.
+            </li>
+            <li>
+              The content &mdash; This is the content of the element, usually a
+              text.
+            </li>
+            <li>
+              The element &mdash; The opening tag, the closing tag, and the
+              content together comprise the element.
+            </li>
+          </ol>
 
-        <p>
-          You can learn more at the
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-            target="_blank"
-            >MDN Web Docs</a
-          >.
-        </p>
+          <p>
+            You can learn more at the
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >MDN Web Docs</a
+            >.
+          </p>
 
-        <h3>Why should you learn HTML?</h3>
+          <h3>Why should you learn HTML?</h3>
 
-        <p>
-          There are countless reasons for learning the
-          <em>fundamental</em> language of the web.Here are 5 of them:
-        </p>
+          <p>
+            There are countless reasons for learning the
+            <em>fundamental</em> language of the web.Here are 5 of them:
+          </p>
 
-        <ul>
-          <li>To be able to use the fundamental web dev language</li>
-          <li>
-            To hand-craft beautiful websites instead of relying on tools like
-            Worpress or Wix
-          </li>
-          <li>To build web applications</li>
-          <li>To impress friends</li>
-          <li>To have fun 😃</li>
-        </ul>
+          <ul>
+            <li>To be able to use the fundamental web dev language</li>
+            <li>
+              To hand-craft beautiful websites instead of relying on tools like
+              Worpress or Wix
+            </li>
+            <li>To build web applications</li>
+            <li>To impress friends</li>
+            <li>To have fun 😃</li>
+          </ul>
 
-        <p>Hopefully you learned something new here. See you next time!</p>
-      </article>
-      <aside>
-        <h4>Related Posts</h4>
-        <ul class="related">
-          <li>
-            <img
-              src="Images-html/related-1.jpg"
-              width="100"
-              height="100"
-              alt="Person programming"
-            />
-            <a href="#">How To Learn Web Developpment</a>
-            <p class="related-author">By Jonas Schemedtman</p>
-          </li>
+          <p>Hopefully you learned something new here. See you next time!</p>
+        </article>
+        <aside>
+          <h4>Related Posts</h4>
+          <ul class="related">
+            <li class="related-post">
+              <img
+                src="Images-html/related-1.jpg"
+                width="100"
+                height="100"
+                alt="Person programming"
+              />
+              <div>
+                <a href="#" class="related-link"
+                  >How To Learn Web Developpment</a
+                >
+                <p class="related-author">By Jonas Schemedtman</p>
+              </div>
+            </li>
 
-          <li>
-            <img
-              src="Images-html/related-2.jpg"
-              width="100"
-              height="100"
-              alt="Thunder css"
-            />
-            <a href="#">The Unknown Power of CSS</a>
-            <p class="related-author">By Jim Dillon</p>
-          </li>
+            <li class="related-post">
+              <img
+                src="Images-html/related-2.jpg"
+                width="100"
+                height="100"
+                alt="Thunder css"
+              />
+              <div>
+                <a href="#" class="related-link">The Unknown Power of CSS</a>
+                <p class="related-author">By Jim Dillon</p>
+              </div>
+            </li>
 
-          <li>
-            <img
-              src="Images-html/javascript-code-on-screen.jpg"
-              width="100"
-              height="100"
-              alt="Javascript SEO"
-            />
-            <a href="#">Why Javascript is Awesome</a>
-            <p class="related-author">By Matilda</p>
-          </li>
-        </ul>
-      </aside>
+            <li class="related-post">
+              <img
+                src="Images-html/javascript-code-on-screen.jpg"
+                width="100"
+                height="100"
+                alt="Javascript SEO"
+              />
+              <div>
+                <a href="#" class="related-link">Why Javascript is Awesome</a>
+                <p class="related-author">By Matilda</p>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
       <footer>
         <p id="copyright">Copyright &copy; 2027 The Code Magazine.</p>
       </footer>
