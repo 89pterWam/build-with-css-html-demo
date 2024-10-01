@@ -32,27 +32,74 @@
         background-color: crimson;
       }
 
+      .el--8 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+      }
+
+      .el--2 {
+        /* grid-column: 1/2;
+        grid-row: 2/3; */
+
+        /* grid-column: 1/4; */
+        grid-column: 2/-1;
+        grid-row: 2;
+      }
+
       .container--1 {
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 23px;
         margin: 40px;
 
         /* CSS GRID */
+        /* display: grid; */
+        display: none;
+
+        /* grid-template-columns: 200px 100px 1fr 1fr; */
+        grid-template-rows: 300px 200px;
+
+        /* grid-template-columns: 3fr 1fr 1fr 1fr; */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        /* grid-template-rows: repeat (3, 1fr); */
+
+        /* gap: 30px; */
+        column-gap: 10px;
+        row-gap: 40px;
       }
 
       .container--2 {
         /* STARTER */
+
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
         margin: 100px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
+        gap: 50px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+
+        /* Aligning grid items inside the container:
+        distriute empty space */
+
+        justify-content: center;
+
+        /* Align grid items vetically */
+        align-content: center;
+
+        /* Align grid items INSIDE cells: 
+        moving items inside around inside the cells  */
+
+        justify-items: center;
+        align-items: center;
       }
     </style>
   </head>
