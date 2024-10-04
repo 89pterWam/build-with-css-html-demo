@@ -85,20 +85,12 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
-
-  width: 350px;
-  float: right;
-}
-
-/* Article Selector */
-article {
-  margin-bottom: 60px;
-  width: 800px;
-  float: left;
+  align-self: start;
 }
 
 footer {
-  clear: both;
+  /* CSS GRID */
+  grid-column: 1/-1;
 }
 
 /* Links Box  */
@@ -188,12 +180,23 @@ button {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 20px;
-  height: 50px;
+
+  /* CSS GRID */
+  grid-column: 1 / -1;
 }
 
 /* Box Header 2 */
 .post-header {
   margin-bottom: 40px;
+}
+
+/* CONTAINER OF PAUL IMAGE AND ITS PARAGRAPH */
+.author-box {
+  display: flex;
+}
+
+.post-author {
+  margin-bottom: 10px;
 }
 
 /* 2nd Image Class Box */
@@ -207,11 +210,20 @@ AND CONTAINER div */
 .container {
   width: 1200px;
   margin: 0 auto;
+
+  /* CSS GRID LAYOUTS */
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
 }
 /* FLOAT DESIGN */
 .author {
   margin-bottom: 0;
   margin-left: 15px;
+
+  /* FLEXBOX DESIGN */
+  align-self: center;
 }
 
 .related-post {
@@ -235,21 +247,3 @@ AND CONTAINER div */
   margin-bottom: 5px;
   display: block;
 }
-
-/* .row {
-  display: flex;
-  flex: 1;
-  margin-bottom: 60px;
-  align-items: flex-start;
-  gap: 75px;
-}
-
-aside {
-  flex: 0 0 300px;
-}
-
-article {
-  margin-bottom: 0;
-} */
-
-/* CSS GRID LAYOUTS */
