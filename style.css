@@ -210,11 +210,46 @@ AND CONTAINER div */
 }
 /* FLOAT DESIGN */
 .author {
-  float: left;
-  margin-left: 20px;
-  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: 15px;
 }
-.author-img {
-  float: left;
-  margin-bottom: 10px;
+
+.related-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
 }
+
+.related-author {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* .row {
+  display: flex;
+  flex: 1;
+  margin-bottom: 60px;
+  align-items: flex-start;
+  gap: 75px;
+}
+
+aside {
+  flex: 0 0 300px;
+}
+
+article {
+  margin-bottom: 0;
+} */
+
+/* CSS GRID LAYOUTS */
